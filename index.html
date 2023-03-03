@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="./assets/css/list.css">
+        <link rel="stylesheet" href="./assets/css/sidebar.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="module" src="./assets/js/script.js"></script>
+
+        <title>Conferência de Faltas</title>
+    </head>
+    <body>
+        <aside class="sidebar">
+            <select name="filter" id="filter">
+                <option value="0">Exibir Todos</option>
+                <option value="1">CFG Ativa</option>
+                <option value="2">CFG Reserva</option>
+                <option value="3">CG</option>
+            </select>
+            <div class="buttons">
+                <button id="search">Buscar</button>
+                <button id="export">Exportar</button>
+                <button id="reset">Limpar</button>
+            </div>
+            <footer>
+                <div class="logo">
+                    <img class="footer--logo" src="./assets/img/logo.png" alt="IME">
+                </div>
+                <div class="footer--text">
+                    <p>Instituto Militar de Engenharia</p>
+                    <p>SE/9</p>
+                </div>
+            </footer>
+        </aside>
+        <div class="container">
+            <!-- To be rendered -->
+        </div>
+    </body>
+</html>
